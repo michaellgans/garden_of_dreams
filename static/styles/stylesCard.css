@@ -1,0 +1,47 @@
+/* Styles for Card */
+
+.red-border {
+    border: solid 1px red;
+}
+
+.orange-border {
+    border: solid 1px orange;
+}
+
+.blue-border {
+    border: solid 1px blue;
+}
+
+.plantCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.plantCard {
+    /* Image */
+    background-image: url(../images/testFlower.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 500px;
+    border-radius: 20px;
+    align-content: flex-end;
+}
+
+.plantCardInfo {
+    justify-content: start;
+    border-radius: 20px;
+    background-color: rgba(250, 240, 202, 0.7);
+}
+
+.card {
+    width: 45rem;
+}
+
+.card-text-container {
+    background-color: aqua;
+    margin-top: 20rem;
+    width: fit-content;
+}

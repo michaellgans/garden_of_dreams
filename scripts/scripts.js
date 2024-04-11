@@ -1,0 +1,1 @@
+/*JQuery for Garden of Dreams */

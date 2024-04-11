@@ -1,0 +1,56 @@
+/* Styles for Garden of Dreams */
+
+:root {
+    --dark-green: #1a3321;
+    --chiffon: #faf0ca;
+    --gold: #f8ba6b;
+}
+
+/* Bootstrap Reassignments */
+.text-primary {
+    color: var(--dark-green)!important;
+}
+
+.navbar {
+    background-color: var(--chiffon)!important;
+    border: none;
+}
+
+/* Background Image */
+body {
+    /* background-image: url("../images/gardenOfDreamsBG2.jpg"); */
+    background-color: var(--chiffon);
+    max-width: 100%;
+    height: auto;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.title-container {
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.hero-title {
+    font-size: 100px;
+    margin: 0;
+    padding-bottom: 33px;
+    line-height: 0.7;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--chiffon);
+    width: 100%;
+}

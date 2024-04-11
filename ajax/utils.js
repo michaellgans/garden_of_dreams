@@ -35,27 +35,52 @@
 // document.addEventListener('DOMContentLoaded', () => {
 // 	fetchDataAndRender();
 // })
-
-
-
-
-
-
-const settings = {
-	async: true,
-	crossDomain: true,
-	url: 'https://plants10.p.rapidapi.com/plants/states?fips_code=US41',
+const url = 'https://trefle.p.rapidapi.com/api/v1/distributions/okl?token=SbeeVCPUVgWafdQTER04QdFsOCxJZ1B9WRqtInHqsDY';
+const options = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '213d0efc24msh1e16df4517dc754p1042d8jsna8c568f82bde',
-		'X-RapidAPI-Host': 'plants10.p.rapidapi.com'
+		'X-RapidAPI-Host': 'trefle.p.rapidapi.com'
 	}
 };
 
-$.ajax(settings).done(function (response) {
-	displayPlantData(response);
-});
+async function fetchData() {
+	try {
+			const response = await fetch(url, options);
+			const result = await response.text();
+			console.log(result);
+	} catch (error) {
+			console.error(error);
+	}
+}
 
+// Call the async function
+fetchData();
+
+
+
+
+
+// const settings = {
+// 	async: true,
+// 	crossDomain: true,
+// 	url: 'https://trefle.p.rapidapi.com/api/auth/claim?token=%3CREQUIRED%3E',
+// 	method: 'POST',
+// 	headers: {
+// 		'content-type': 'application/json',
+// 		'X-RapidAPI-Key': '213d0efc24msh1e16df4517dc754p1042d8jsna8c568f82bde',
+// 		'X-RapidAPI-Host': 'trefle.p.rapidapi.com'
+// 	},
+// 	processData: false,
+// 	data: {
+//     "origin": "https://example.com",
+//     "ip": "12.23.34.45"
+// 	}
+// };
+
+// $.ajax(settings).done(function (response) {
+// 	console.log(response);
+// });
 // 	// Using Oklahoma Plants for testing
 // 	$.ajax({
 // 		url: 'https://cors-anywhere.herokuapp.com/https://trefle.io/api/v1/distributions/okl/plants?token=SbeeVCPUVgWafdQTER04QdFsOCxJZ1B9WRqtInHqsDY',

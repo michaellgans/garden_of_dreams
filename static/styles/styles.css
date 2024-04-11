@@ -18,7 +18,7 @@
 
 /* Background Image */
 body {
-    /* background-image: url("../images/gardenOfDreamsBG2.jpg"); */
+    background-image: url("../images/gardenOfDreamsBG2.jpg");
     background-color: var(--chiffon);
     max-width: 100%;
     height: auto;
@@ -37,7 +37,9 @@ body {
 
 .title-container {
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 30px;
+    background: radial-gradient(ellipse, rgba(250, 240, 202, 0.55) 50%, rgba(250, 240, 202, 0) 90%);
+    /* background: radial-gradient(circle, rgba(250, 240, 202, 0.2) 0%, rgba(250, 240, 202, 0.5) 50%, rgba(250, 240, 202, 0) 100%); */
 }
 
 .hero-title {

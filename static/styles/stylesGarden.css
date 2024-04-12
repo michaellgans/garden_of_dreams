@@ -18,7 +18,6 @@
 
 /* Background Image */
 body {
-    background-image: url("../images/gardenOfDreamsBG2.jpg");
     background-color: var(--chiffon);
     max-width: 100%;
     height: auto;
@@ -58,18 +57,14 @@ body {
 }
 
 /* Garden */
-.region-navigation {
+.test-border {
+    border: solid 3px red;
+}
+
+.state-cart {
 
 }
 
-.you-are-here {
+.state-flowers {
 
-}
-
-.map {
-
-}
-
-.region {
-    
 }

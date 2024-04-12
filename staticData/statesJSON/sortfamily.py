@@ -2,12 +2,11 @@ import sys
 import json
 
 
-
 category_mapping_letter = {
-    'F': 'Flowering Plant',
+    'P': 'Flowering Plant',
     'T': 'Tree',
     'G': 'Shrub/Grass',
-    'Fu': 'Fungus',
+    'F': 'Fungus',
     'C': 'Cactus',
 }
 
@@ -19,17 +18,24 @@ def categorize_fams(category_mapping, filename):
     for family_name in families_list:
         category = input(f"Enter category for '{family_name}': ").strip()
 
+        if category.upper() in category_mapping_letter:
+            category = category_mapping_letter[category.upper()]
+        else:
+            print("Invalid category input.")
+            continue
+
         if category not in category_mapping:
             category_mapping[category] = []
+
         category_mapping[category].append(family_name)
 
-        print(f"Family '{family_name}' belongs to the '{category}' category.")
+    print(f"Family '{family_name}' belongs to the '{category}' category.")
 
     print("Categorization Complete")
 
 
 def cats_to_json(category_mapping, output_file):
-    with open (output_file, 'w') as json_file:
+    with open(output_file, 'w') as json_file:
         json.dump(category_mapping, json_file, indent=4)
 
 

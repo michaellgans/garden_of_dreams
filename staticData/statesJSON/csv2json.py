@@ -2,6 +2,7 @@ import csv
 import json
 import sys
 
+
 def parse_csv_to_json(csv_file):
     id_counter = 1
     json_data = []
@@ -35,6 +36,7 @@ def main():
     json_data = parse_csv_to_json(input_csv_file)
     with open(output_json_file, 'w', encoding='utf-8') as jsonfile:
         json.dump(json_data, jsonfile, indent=4)
+
 
 if __name__ == "__main__":
     main()

@@ -69,6 +69,23 @@ body {
 
 }
 
+img, svg {
+    vertical-align: inherit;
+}
+
+.state-name {
+    font-size: 75px;
+}
+
 .state-flower {
-    
+    height: 75px;
+    width: 75px;
+}
+
+/* .to-the-left {
+    margin-left: -49px;
+} */
+
+.to-the-right {
+    margin-right: -40px;
 }

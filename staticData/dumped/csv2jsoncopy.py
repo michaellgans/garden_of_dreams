@@ -1,12 +1,12 @@
-# This script will parse the csv file into a .json file with key-value pairs, only 
-# if the object has a "State Common Name", as well as assign it a unique "ID".
 import csv
 import json
 import sys
 
+
 def parse_csv_to_json(csv_file):
     id_counter = 1
     json_data = []
+    families = set()  # Using a set to ensure uniqueness of families
     with open(csv_file, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
@@ -15,6 +15,14 @@ def parse_csv_to_json(csv_file):
                 row_with_id = {"ID": id_counter, **row}
                 id_counter += 1
                 json_data.append(row_with_id)
+                # Extract family and add it to the set
+                families.add(row["Family"])
+    
+    # Write families to a separate text file
+    with open("families.txt", "w", encoding='utf-8') as family_file:
+        for family in families:
+            family_file.write(family + "\n")
+    
     return json_data
 
 def main():
@@ -28,6 +36,7 @@ def main():
     json_data = parse_csv_to_json(input_csv_file)
     with open(output_json_file, 'w', encoding='utf-8') as jsonfile:
         json.dump(json_data, jsonfile, indent=4)
+
 
 if __name__ == "__main__":
     main()

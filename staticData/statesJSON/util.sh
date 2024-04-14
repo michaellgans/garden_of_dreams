@@ -1,16 +1,22 @@
 #!/bin/bash
 
+reformat_data() {
+	state="$1"
+	json_data=$(curl -sS "https://trefle.io/api/v1/distributions/${state}/plants?filter%5Bestablishment%5D=native&token=SbeeVCPUVgWafdQTER04QdFsOCxJZ1B9WRqtInHqsDY")
+	echo "$json_data" | python3 jsonparse.py "$state"
+}
+
+
+
+
 # List of full state names
-states=("ala" "ask" "ari" "ark" "cal" "col" "cnt" "del" "fla" "geo" "haw" "ida" "ill" "ini" "iow" "kan" "kty" "lou" "mai" "mry" "mas" "mic" "min" "msi" "mso" "mnt" "neb" "nev" "nwh" "nwj" "nwm" "nwy" "nca" "nda" "ohi" "okl" "ore" "pen" "rho" "sca" "sda" "ten" "tex" "uta" "ver" "vrg" "was" "wva" "wis" "wyo")
+states=("ala")
 
 # Loop over each state
 for state in "${states[@]}"
 do
-    # Download CSV file for the state
-    curl "https://trefle.io/api/v1/distributions/${state}/plants?filter%5Bestablishment%5D=native&token=SbeeVCPUVgWafdQTER04QdFsOCxJZ1B9WRqtInHqsDY" -o "$state.json"
-
-    # Run Python script to convert CSV to JSON
-    python csv2json.py "$state.csv"
+    # call for each state
+    reformat_data "$state"
 done
 
 

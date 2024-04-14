@@ -8,11 +8,15 @@
 
 /* Bootstrap Reassignments */
 .text-primary {
-    color: var(--dark-green)!important;
+    color: whitesmoke!important;
+}
+
+.navbar-toggler-icon {
+    color: whitesmoke!important;
 }
 
 .navbar {
-    background-color: var(--chiffon)!important;
+    background-color: var(--dark-green)!important;
     border: none;
 }
 
@@ -24,6 +28,12 @@ body {
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 /* Hero Section */
@@ -52,7 +62,7 @@ body {
 .footer {
     position: fixed;
     bottom: 0;
-    background-color: var(--chiffon);
+    background-color: var(--dark-green);
     width: 100%;
 }
 
@@ -75,17 +85,25 @@ img, svg {
 
 .state-name {
     font-size: 75px;
+    color: var(--dark-green);
+    margin-top: 100px;
+}
+
+.state-shape {
+    height: 50px;
+    color: whitesmoke;
+
 }
 
 .state-flower {
-    height: 75px;
-    width: 75px;
+    height: 120px;
+    width: 120px;
 }
 
-/* .to-the-left {
-    margin-left: -49px;
-} */
-
-.to-the-right {
-    margin-right: -40px;
+.results-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px!important;
 }

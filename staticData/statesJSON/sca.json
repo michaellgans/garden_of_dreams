@@ -1,0 +1,142 @@
+[
+  {
+    "id": "sca-1",
+    "common_name": "Milfoil",
+    "scientific_name": "Achillea millefolium",
+    "image_url": "https://bs.plantnet.org/image/o/d788a757cd8bac8c3b1378a970c078a7a937a174",
+    "search_url": "https://www.google.com/search?q=$Milfoil"
+  },
+  {
+    "id": "sca-2",
+    "common_name": "Red fescue",
+    "scientific_name": "Festuca rubra",
+    "image_url": "https://bs.plantnet.org/image/o/fb1967942b880fb7c978ff76741d348a22611b88",
+    "search_url": "https://www.google.com/search?q=$Red fescue"
+  },
+  {
+    "id": "sca-3",
+    "common_name": "Soft rush",
+    "scientific_name": "Juncus effusus",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/31545c7b5c65236a5d7f28ca040ee058.jpg",
+    "search_url": "https://www.google.com/search?q=$Soft rush"
+  },
+  {
+    "id": "sca-4",
+    "common_name": "Ditch reed",
+    "scientific_name": "Phragmites australis",
+    "image_url": "https://bs.plantnet.org/image/o/8a74932da925aea8224f7929bf701806abec0c84",
+    "search_url": "https://www.google.com/search?q=$Ditch reed"
+  },
+  {
+    "id": "sca-5",
+    "common_name": "Heal-all",
+    "scientific_name": "Prunella vulgaris",
+    "image_url": "https://bs.plantnet.org/image/o/b46f4000f9bec28dc6d74d501ddc15445e7f7667",
+    "search_url": "https://www.google.com/search?q=$Heal-all"
+  },
+  {
+    "id": "sca-6",
+    "common_name": "Smooth meadow grass",
+    "scientific_name": "Poa pratensis",
+    "image_url": "https://bs.plantnet.org/image/o/6e25db3d223a2e7b26a3c762c4861ab5fb9010ac",
+    "search_url": "https://www.google.com/search?q=$Smooth meadow grass"
+  },
+  {
+    "id": "sca-7",
+    "common_name": "Common horsetail",
+    "scientific_name": "Equisetum arvense",
+    "image_url": "https://bs.plantnet.org/image/o/38b0d1c57a937cef46001b123e55b54585886243",
+    "search_url": "https://www.google.com/search?q=$Common horsetail"
+  },
+  {
+    "id": "sca-8",
+    "common_name": "Common juniper",
+    "scientific_name": "Juniperus communis",
+    "image_url": "https://bs.plantnet.org/image/o/e4676fc7c7ba86abd9273548ad8542756d3d8e23",
+    "search_url": "https://www.google.com/search?q=$Common juniper"
+  },
+  {
+    "id": "sca-9",
+    "common_name": "Cowflock",
+    "scientific_name": "Caltha palustris",
+    "image_url": "https://bs.plantnet.org/image/o/d17b1b3c76658c895d661d598251b10784411763",
+    "search_url": "https://www.google.com/search?q=$Cowflock"
+  },
+  {
+    "id": "sca-10",
+    "common_name": "Prostrate knotweed",
+    "scientific_name": "Polygonum aviculare",
+    "image_url": "https://bs.plantnet.org/image/o/a4462ace6b925f24b1c7dc20e9e7bf76bb63647e",
+    "search_url": "https://www.google.com/search?q=$Prostrate knotweed"
+  },
+  {
+    "id": "sca-11",
+    "common_name": "Bearbind",
+    "scientific_name": "Calystegia sepium",
+    "image_url": "https://bs.plantnet.org/image/o/20b690d0b4fd584c21993b5aad41e4b4a059ff68",
+    "search_url": "https://www.google.com/search?q=$Bearbind"
+  },
+  {
+    "id": "sca-12",
+    "common_name": "Fat-hen",
+    "scientific_name": "Chenopodium album",
+    "image_url": "https://bs.plantnet.org/image/o/7210dfc0c2a48bdde194bef37c7b7956974bc1b7",
+    "search_url": "https://www.google.com/search?q=$Fat-hen"
+  },
+  {
+    "id": "sca-13",
+    "common_name": "Horseweed",
+    "scientific_name": "Erigeron canadensis",
+    "image_url": "https://bs.plantnet.org/image/o/86eb5d75c66e9900e6c73d5ca8973dc139d6a3df",
+    "search_url": "https://www.google.com/search?q=$Horseweed"
+  },
+  {
+    "id": "sca-14",
+    "common_name": "Spinulose woodfern",
+    "scientific_name": "Dryopteris carthusiana",
+    "image_url": "https://bs.plantnet.org/image/o/0cec6b8d1e2427996f680fc903429818cf122677",
+    "search_url": "https://www.google.com/search?q=$Spinulose woodfern"
+  },
+  {
+    "id": "sca-15",
+    "common_name": "Cooper's-reed",
+    "scientific_name": "Typha latifolia",
+    "image_url": "https://bs.plantnet.org/image/o/896148400cd6f86e1fc848891e6373451a8178fc",
+    "search_url": "https://www.google.com/search?q=$Cooper's-reed"
+  },
+  {
+    "id": "sca-16",
+    "common_name": "Disc mayweed",
+    "scientific_name": "Matricaria discoidea",
+    "image_url": "https://bs.plantnet.org/image/o/ae2676f16dbe8c6495946e32eff656a97ddd6c20",
+    "search_url": "https://www.google.com/search?q=$Disc mayweed"
+  },
+  {
+    "id": "sca-17",
+    "common_name": "Duckweed",
+    "scientific_name": "Lemna minor",
+    "image_url": "https://bs.plantnet.org/image/o/900c5abdc662b4aa0bb8ca5a3a7861488327e02c",
+    "search_url": "https://www.google.com/search?q=$Duckweed"
+  },
+  {
+    "id": "sca-18",
+    "common_name": "Thyme speedwell",
+    "scientific_name": "Veronica serpyllifolia",
+    "image_url": "https://bs.plantnet.org/image/o/38e085472448feab2d567f167573c74461878122",
+    "search_url": "https://www.google.com/search?q=$Thyme speedwell"
+  },
+  {
+    "id": "sca-19",
+    "common_name": "Creeping spike-rush",
+    "scientific_name": "Eleocharis palustris",
+    "image_url": "https://bs.plantnet.org/image/o/b28acfaa2f16adaa6ef81ab931313cd69f954243",
+    "search_url": "https://www.google.com/search?q=$Creeping spike-rush"
+  },
+  {
+    "id": "sca-20",
+    "common_name": "Wavy hairgrass",
+    "scientific_name": "Avenella flexuosa",
+    "image_url": "https://bs.plantnet.org/image/o/c205d8f96773c1435b7c08297b32600c390134a2",
+    "search_url": "https://www.google.com/search?q=$Wavy hairgrass"
+  }
+]

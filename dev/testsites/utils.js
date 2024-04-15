@@ -31,11 +31,17 @@ function displayPlants(plants) {
   $.each(plants, function(index, plant) {
     var plantDiv = $("<div>");
     plantDiv.html(`
-      <h2>${plant.common_name}</h2>
-      <p><strong>Scientific Name:</strong> ${plant.scientific_name}</p>
-      <img src="${plant.image_url}" alt="${plant.common_name}">
-      <p><a href="${plant.google_url}" target="_blank">Google Search</a></p>
-      <p><a href="${plant.plantnet_url}" target="_blank">PlantNet</a></p>
+		<div class="container">
+			<div class="card">
+				<img src="${plant.image_url}" class="card-img-top" alt="${plant.scientific_name}"></img>
+				<div class="card-body">
+					<h2 class="card-title font-weight-bold">${plant.common_name}</h2>
+					<p class="card-text font-weight-light font-style-italic">${plant.scientific_name}</p>
+					<p><a href="${plant.google_url}">Google Search</a></p>
+					<p><a href="${plant.plantnet_url}">PlantNet</a></p>
+				</div>
+			</div>
+		</div>
     `);
     plantsContainer.append(plantDiv);
   });

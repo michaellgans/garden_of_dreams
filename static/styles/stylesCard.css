@@ -1,5 +1,11 @@
 /* Styles for Card */
 
+:root {
+    --dark-green: #1a3321;
+    --chiffon: #faf0ca;
+    --gold: #f8ba6b;
+}
+
 .red-border {
     border: solid 1px red;
 }
@@ -30,6 +36,14 @@
     align-content: flex-end;
 }
 
+.plantCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.plantCard:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .plantCardInfo {
     justify-content: start;
     border-radius: 20px;
@@ -44,4 +58,15 @@
     background-color: aqua;
     margin-top: 20rem;
     width: fit-content;
+}
+
+/* Styles Modal */
+
+.modal-content {
+    background-color: var(--chiffon);
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
 }

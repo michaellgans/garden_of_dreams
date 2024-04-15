@@ -102,8 +102,8 @@ body {
 /* State Section */
 
 .state-section {
-    background-color: var(--chiffon);
-    height: 500px;
+    background-color: whitesmoke;
+    height: 400px;
     width: 100%;
     margin-top: 56px;
     display: flex;
@@ -115,12 +115,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 33%;
+    width: 40%;
 }
 
 .state-name {
     color: var(--dark-green);
-    width: 66%;
+    width: 60%;
+}
+
+.state-name h1 {
+    font-size: 100px;
+    line-height: 75%;
 }
 
 .results-section {
@@ -129,5 +134,5 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 100px!important;
-    background-color: whitesmoke;
+    background-color: var(--chiffon);
 }

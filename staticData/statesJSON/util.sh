@@ -10,7 +10,7 @@ reformat_data() {
 
 
 # List of full state names
-states=("ala" "ask" "ari" "ark" "cal" "col" "cnt" "del" "fla" "geo" "haw" "ida" "ill" "ini" "iow" "kan" "kty" "lou" "mai" "mry" "mas" "mic" "min" "msi" "mso" "mnt" "neb" "nev" "nwh" "nwj" "nwm" "nwy" "nca" "nda" "ohi" "okl" "ore" "pen" "rho" "sca" "sda" "ten" "tex" "uta" "ver" "vrg" "was" "wva" "wis" "wyo")
+states=("ala")
 
 # Loop over each state
 for state in "${states[@]}"

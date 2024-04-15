@@ -70,12 +70,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		const googleLink = document.createElement('p');
 		googleLink.classList.add('card-text', 'plant-google-url');
-		const link = document.createElement('a');
-		link.href = plant.search_url;
-		link.target = '_blank';
-		link.textContent = 'Search on Google';
+		const glink = document.createElement('a');
+		glink.href = plant.google_url;
+		glink.target = '_blank';
+		glink.textContent = 'Search on Google';
 		googleLink.appendChild(link);
 		cardBody.appendChild(googleLink);
+
+		const plantnetLink = document.createElement('p');
+		googleLink.classList.add('card-text', 'plant-plantnet-url');
+		const plink = document.createElement('a');
+		pink.href = plant.plantnet_url;
+		plink.target = '_blank';
+		plink.textContent = 'Search on Google';
+		plantnetLink.appendChild(plink);
+		cardBody.appendChild(plantnetLink);
 
 		col.appendChild(card);
 		return col;

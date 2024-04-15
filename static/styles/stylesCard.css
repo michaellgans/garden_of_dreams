@@ -70,3 +70,26 @@
 .modal-footer {
     border: none;
 }
+
+.google-button,
+.cart-button,
+.flower-button,
+.next-button {
+    padding: 10px;
+}
+
+.google-button:hover,
+.cart-button:hover,
+.flower-button:hover,
+.next-button:hover {
+    border: solid var(--dark-green) 1px;
+}
+
+.plant-photo {
+    border-radius: 20px;
+}
+
+.plant-blurb {
+    padding: 0;
+    margin: 0;
+}

@@ -2,8 +2,9 @@
 
 :root {
     --dark-green: #1a3321;
-    --chiffon: #faf0ca;
+    --chiffon: #fdf9e8;
     --gold: #f8ba6b;
+    --emerald: #a0bd75;
 }
 
 /* Fonts */
@@ -37,6 +38,12 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.vast-shadow {
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
   
 
 /* Bootstrap Reassignments */
@@ -49,8 +56,9 @@
 }
 
 .navbar {
-    background-color: var(--dark-green)!important;
+    background-color: var(--emerald)!important;
     border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Background Image */
@@ -81,7 +89,6 @@ body {
     padding: 20px;
     border-radius: 30px;
     background: radial-gradient(ellipse, rgba(250, 240, 202, 0.55) 50%, rgba(250, 240, 202, 0) 90%);
-    /* background: radial-gradient(circle, rgba(250, 240, 202, 0.2) 0%, rgba(250, 240, 202, 0.5) 50%, rgba(250, 240, 202, 0) 100%); */
 }
 
 .hero-title {
@@ -91,11 +98,17 @@ body {
     line-height: 0.7;
 }
 
+/* Ribbon Section */
+.ribbon-section {
+    background-color: var(--dark-green);
+    color: whitesmoke;
+}
+
 /* Footer */
 .footer {
     position: fixed;
     bottom: 0;
-    background-color: var(--dark-green);
+    background-color: var(--emerald);
     width: 100%;
 }
 
@@ -103,24 +116,23 @@ body {
 
 .state-section {
     background-color: whitesmoke;
-    height: 400px;
+    height: 260px;
     width: 100%;
     margin-top: 56px;
     display: flex;
-}
-
-.state-flower {
-    background-image: url(../images/stateFlowers/OKFlower.jpg);
+    background-image: url(../images/banner2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: grayscale(60%);
+}
+
+.state-flower {
     height: 100%;
-    width: 40%;
 }
 
 .state-name {
-    color: var(--dark-green);
-    width: 60%;
+    color: whitesmoke;
 }
 
 .state-name h1 {

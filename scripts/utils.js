@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Fetch the JSON file
-  $.getJSON('../dev/testsites/states.json', function(data) {
+  $.getJSON('../static/data/states.json', function(data) {
     // Extract state names for populating dropdown
     var stateNames = Object.keys(data.states);
 
@@ -10,12 +10,17 @@ $(document).ready(function() {
       dropdown.append($("<option />").val(stateName).text(stateName));
     });
 
+		dropdown.val("Oklahoma");
+		changeTitle("Oklahoma");
+		displayPlants(data.states["Oklahoma"]);
+
     // Event listener for dropdown change
     dropdown.on("change", function() {
       var selectedState = $(this).val();
+			changeTitle(selectedState);
       var plants = data.states[selectedState];
-			var bannerTitle = $('#stateTitle');
-			bannerTitle.text(selectedState);
+			var plantsContainer = $("#plantsContainer");
+			plantsContainer.empty();
       displayPlants(plants);
     });
   })
@@ -25,8 +30,16 @@ $(document).ready(function() {
   });
 });
 
+function changeTitle(state) {
+	var bannerTitle = $('#stateTitle');
+	bannerTitle.text(state);
+}
+
 // Function to display plants for the selected state
 function displayPlants(plants) {
+	shuffleArray(plants);
+	plants = plants.slice(0, 9);
+
   var plantsContainer = $("#plantsContainer");
   plantsContainer.empty(); // Clear existing plants
 
@@ -88,6 +101,16 @@ function displayPlants(plants) {
     `);
     plantsContainer.append(plantDiv);
   });
+}
+
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
 }
 
 // document.addEventListener("DOMContentLoaded", function() {

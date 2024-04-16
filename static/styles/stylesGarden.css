@@ -51,7 +51,8 @@
     color: whitesmoke!important;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon,
+.nav-link {
     color: whitesmoke!important;
 }
 
@@ -59,6 +60,11 @@
     background-color: var(--emerald)!important;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-secondary {
+    background-color: var(--dark-green);
+    width: 200px;
 }
 
 /* Background Image */
@@ -75,6 +81,10 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+}
+
+.shadow2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Hero Section */
@@ -149,4 +159,17 @@ body {
     justify-content: space-evenly;
     margin-bottom: 100px!important;
     background-color: var(--chiffon);
+}
+
+/* Drop Down Section */
+.dropdown-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.basket {
+    border-radius: 50%;
+    height: 100px;
 }

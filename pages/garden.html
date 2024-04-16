@@ -36,7 +36,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-primary" aria-current="page" href="./garden.html">Garden</a>
+                    <a class="nav-link active text-primary" aria-current="page" href="./garden.html">Home</a>
+                  </li>
+                  <li class="nav-item text-primary">
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers">Learn About Your State</a>
                   </li>
                   <li class="nav-item dropdown text-primary">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,12 +48,8 @@
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="https://blog.nwf.org/2021/06/five-ways-to-help-bees-at-home/">National Wildlife Foundataion</a></li>
                       <li><a class="dropdown-item" href="https://thebeeconservancy.org/10-ways-to-save-the-bees/">The Bee Conservancy</a></li>
-                      <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="https://savebees.org/">Save Bees</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item text-primary">
-                    <a class="nav-link" href="#">Learn About Your State</a>
                   </li>
                 </ul>
               </div>
@@ -66,12 +65,48 @@
     </section>
 
     <!-- Ribbon Section -->
-    <section class="ribbon-section text-center py-1">
+    <section class="ribbon-section text-center py-1 shadow2">
       <h5>Learn what plants are native to your state so you can plant them in your garden!  Thank you for helping native wildlife!</h5>
     </section>
 
+    <!-- Drop Down Section -->
+    <section class="dropdown-section m-5">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Select Your State
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Alabama</a></li>
+          <li><a class="dropdown-item" href="#">Alaska</a></li>
+          <li><a class="dropdown-item" href="#">Arazona</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-secondary">Submit a Correction</button>
+      <button type="button" class="btn btn-secondary">Your Basket</button>
+
+      <!-- Modal Basket -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img class="basket" src="../static/images/basket.jpg"> -->
+    </section>
+
     <!-- Results -->
-    <section class="results-section m-5 py-5">
+    <section class="results-section m-5 px-5">
         <!-- Plant 0 -->
         <div class="plantCard m-2" data-bs-toggle="modal" data-bs-target="#exampleModal0">
             <div class="plantCardInfo m-2 p-2">

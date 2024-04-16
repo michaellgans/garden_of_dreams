@@ -26,7 +26,7 @@
 
 .plantCard {
     /* Image */
-    background-image: url(../images/testFlower.jpg);
+    /* background-image: url(../images/testFlower.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

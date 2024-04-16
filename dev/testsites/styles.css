@@ -1,0 +1,36 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 1rem;
+	padding: auto;
+	max-width: auto;
+	height: auto;
+}
+
+.btn-generate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.btn-generate .btn {
+	border: solid beige;
+	background-color: beige;
+	font-family: "Abel", sans-serif;
+	font-size: x-large;
+}
+
+.card {
+	border: solid beige;
+	margin: 1rem;
+	padding: 1rem;
+	font-family: "EB Garaond", sans-serif;
+}
+
+.card-img {
+	width: auto;
+	height: auto;
+}

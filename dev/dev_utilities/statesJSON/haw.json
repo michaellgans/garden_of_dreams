@@ -1,0 +1,162 @@
+"Hawaii": [
+  {
+    "id": "haw-1",
+    "common_name": "Toad rush",
+    "scientific_name": "Juncus bufonius",
+    "image_url": "https://bs.plantnet.org/image/o/60ebd1de21b3dfe853e57a17074ea1baba82c0b1",
+    "google_url": "https://www.google.com/search?q=Toad rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juncus%20bufonius%20L/data"
+  },
+  {
+    "id": "haw-2",
+    "common_name": "Star sedge",
+    "scientific_name": "Carex echinata",
+    "image_url": "https://bs.plantnet.org/image/o/3d00c62eba869a84381786a484d539e9d6493b7f",
+    "google_url": "https://www.google.com/search?q=Star sedge",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Carex%20echinata%20L/data"
+  },
+  {
+    "id": "haw-3",
+    "common_name": "Maidenhair spleenwort",
+    "scientific_name": "Asplenium trichomanes",
+    "image_url": "https://bs.plantnet.org/image/o/6fc8be3111a0a0fff05946f1e4d0600b4ac87599",
+    "google_url": "https://www.google.com/search?q=Maidenhair spleenwort",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Asplenium%20trichomanes%20L/data"
+  },
+  {
+    "id": "haw-4",
+    "common_name": "Sea club-rush",
+    "scientific_name": "Bolboschoenus maritimus",
+    "image_url": "https://bs.plantnet.org/image/o/18304db73088d0a1d7b0aabada392cc4bd81ab8c",
+    "google_url": "https://www.google.com/search?q=Sea club-rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Bolboschoenus%20maritimus%20L/data"
+  },
+  {
+    "id": "haw-5",
+    "common_name": null,
+    "scientific_name": "Spirodela polyrhiza",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/229c04fa9b659ac68a73e6dbaf365fed.jpg",
+    "google_url": "https://www.google.com/search?q=None",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Spirodela%20polyrhiza%20L/data"
+  },
+  {
+    "id": "haw-6",
+    "common_name": "Black spleenwort",
+    "scientific_name": "Asplenium adiantum-nigrum",
+    "image_url": "https://bs.plantnet.org/image/o/550a5ab8aa0f476116d722262694982a0aca1bfd",
+    "google_url": "https://www.google.com/search?q=Black spleenwort",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Asplenium%20adiantum-nigrum%20L/data"
+  },
+  {
+    "id": "haw-7",
+    "common_name": "Great bulrush",
+    "scientific_name": "Schoenoplectus tabernaemontani",
+    "image_url": "https://bs.plantnet.org/image/o/d9083870a227551aeb80431e6fe9a718b6d40c3b",
+    "google_url": "https://www.google.com/search?q=Great bulrush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Schoenoplectus%20tabernaemontani%20L/data"
+  },
+  {
+    "id": "haw-8",
+    "common_name": "Florida hopbush",
+    "scientific_name": "Dodonaea viscosa",
+    "image_url": "https://bs.plantnet.org/image/o/186567e9fa0a9cc86dc3c9e2ec0ebe6b38312787",
+    "google_url": "https://www.google.com/search?q=Florida hopbush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Dodonaea%20viscosa%20L/data"
+  },
+  {
+    "id": "haw-9",
+    "common_name": "Great sundew",
+    "scientific_name": "Drosera anglica",
+    "image_url": "https://bs.plantnet.org/image/o/faadd408dd65aaad41a7fe82458313312aa20376",
+    "google_url": "https://www.google.com/search?q=Great sundew",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Drosera%20anglica%20L/data"
+  },
+  {
+    "id": "haw-10",
+    "common_name": "Beaked tasselweed",
+    "scientific_name": "Ruppia maritima",
+    "image_url": "https://bs.plantnet.org/image/o/e7ea5fa636d2ad1280073a49d14ec42e3b4cd5e7",
+    "google_url": "https://www.google.com/search?q=Beaked tasselweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Ruppia%20maritima%20L/data"
+  },
+  {
+    "id": "haw-11",
+    "common_name": "Maidenhair fern",
+    "scientific_name": "Adiantum capillus-veneris",
+    "image_url": "https://bs.plantnet.org/image/o/6f787532f4978e7cab07c29042a4ed6a67d42d50",
+    "google_url": "https://www.google.com/search?q=Maidenhair fern",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Adiantum%20capillus-veneris%20L/data"
+  },
+  {
+    "id": "haw-12",
+    "common_name": "Common fringe-rush",
+    "scientific_name": "Fimbristylis dichotoma",
+    "image_url": "https://bs.plantnet.org/image/o/6249fafd2af548ac94df390da8e1523e86a8e52d",
+    "google_url": "https://www.google.com/search?q=Common fringe-rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Fimbristylis%20dichotoma%20L/data"
+  },
+  {
+    "id": "haw-13",
+    "common_name": "Longleaf pondweed",
+    "scientific_name": "Potamogeton nodosus",
+    "image_url": "https://bs.plantnet.org/image/o/4de0a0cb9e782f61d71a380950ff4ebd34463c20",
+    "google_url": "https://www.google.com/search?q=Longleaf pondweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Potamogeton%20nodosus%20L/data"
+  },
+  {
+    "id": "haw-14",
+    "common_name": "Coco-grass",
+    "scientific_name": "Cyperus rotundus",
+    "image_url": "https://bs.plantnet.org/image/o/016162c18ed3151be4473112822ba68043573dc0",
+    "google_url": "https://www.google.com/search?q=Coco-grass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Cyperus%20rotundus%20L/data"
+  },
+  {
+    "id": "haw-15",
+    "common_name": "Little ironweed",
+    "scientific_name": "Cyanthillium cinereum",
+    "image_url": "https://bs.plantnet.org/image/o/f556fe495ab024576f10d6340efc8ed4e36b015b",
+    "google_url": "https://www.google.com/search?q=Little ironweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Cyanthillium%20cinereum%20L/data"
+  },
+  {
+    "id": "haw-16",
+    "common_name": "Smooth heliotrope",
+    "scientific_name": "Heliotropium curassavicum",
+    "image_url": "https://bs.plantnet.org/image/o/2c28429b224d9deb7b543a1976ee6b1f09712642",
+    "google_url": "https://www.google.com/search?q=Smooth heliotrope",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Heliotropium%20curassavicum%20L/data"
+  },
+  {
+    "id": "haw-17",
+    "common_name": "Black spear grass",
+    "scientific_name": "Heteropogon contortus",
+    "image_url": "https://bs.plantnet.org/image/o/045f2c490a1ecc310102aca206737f69d29b152a",
+    "google_url": "https://www.google.com/search?q=Black spear grass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Heteropogon%20contortus%20L/data"
+  },
+  {
+    "id": "haw-18",
+    "common_name": "Narrow-leaved cudweed",
+    "scientific_name": "Logfia gallica",
+    "image_url": "https://bs.plantnet.org/image/o/cef5bee111858a30de22ceedd8f2941be3a272da",
+    "google_url": "https://www.google.com/search?q=Narrow-leaved cudweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Logfia%20gallica%20L/data"
+  },
+  {
+    "id": "haw-19",
+    "common_name": "Railroadvine",
+    "scientific_name": "Ipomoea pes-caprae",
+    "image_url": "https://bs.plantnet.org/image/o/970048c072d2daad49a4ce138b62d4e7890160d4",
+    "google_url": "https://www.google.com/search?q=Railroadvine",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Ipomoea%20pes-caprae%20L/data"
+  },
+  {
+    "id": "haw-20",
+    "common_name": "Wing-leaf soapberry",
+    "scientific_name": "Sapindus saponaria",
+    "image_url": "https://bs.plantnet.org/image/o/a454dbd7731c6a20178f2d480ab0670b74006d0f",
+    "google_url": "https://www.google.com/search?q=Wing-leaf soapberry",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Sapindus%20saponaria%20L/data"
+  }
+]

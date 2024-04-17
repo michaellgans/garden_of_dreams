@@ -1,0 +1,162 @@
+"Arizona": [
+  {
+    "id": "ari-1",
+    "common_name": "Milfoil",
+    "scientific_name": "Achillea millefolium",
+    "image_url": "https://bs.plantnet.org/image/o/d788a757cd8bac8c3b1378a970c078a7a937a174",
+    "google_url": "https://www.google.com/search?q=Milfoil",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Achillea%20millefolium%20L/data"
+  },
+  {
+    "id": "ari-2",
+    "common_name": "Red fescue",
+    "scientific_name": "Festuca rubra",
+    "image_url": "https://bs.plantnet.org/image/o/fb1967942b880fb7c978ff76741d348a22611b88",
+    "google_url": "https://www.google.com/search?q=Red fescue",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Festuca%20rubra%20L/data"
+  },
+  {
+    "id": "ari-3",
+    "common_name": "Soft rush",
+    "scientific_name": "Juncus effusus",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/31545c7b5c65236a5d7f28ca040ee058.jpg",
+    "google_url": "https://www.google.com/search?q=Soft rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juncus%20effusus%20L/data"
+  },
+  {
+    "id": "ari-4",
+    "common_name": "Ditch reed",
+    "scientific_name": "Phragmites australis",
+    "image_url": "https://bs.plantnet.org/image/o/8a74932da925aea8224f7929bf701806abec0c84",
+    "google_url": "https://www.google.com/search?q=Ditch reed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Phragmites%20australis%20L/data"
+  },
+  {
+    "id": "ari-5",
+    "common_name": "Heal-all",
+    "scientific_name": "Prunella vulgaris",
+    "image_url": "https://bs.plantnet.org/image/o/b46f4000f9bec28dc6d74d501ddc15445e7f7667",
+    "google_url": "https://www.google.com/search?q=Heal-all",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Prunella%20vulgaris%20L/data"
+  },
+  {
+    "id": "ari-6",
+    "common_name": "Tufted hairgrass",
+    "scientific_name": "Deschampsia cespitosa",
+    "image_url": "https://bs.plantnet.org/image/o/f211f64ec30eef99019954d1f4284d56218417eb",
+    "google_url": "https://www.google.com/search?q=Tufted hairgrass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Deschampsia%20cespitosa%20L/data"
+  },
+  {
+    "id": "ari-7",
+    "common_name": "Smooth meadow grass",
+    "scientific_name": "Poa pratensis",
+    "image_url": "https://bs.plantnet.org/image/o/6e25db3d223a2e7b26a3c762c4861ab5fb9010ac",
+    "google_url": "https://www.google.com/search?q=Smooth meadow grass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Poa%20pratensis%20L/data"
+  },
+  {
+    "id": "ari-8",
+    "common_name": "European blueberry",
+    "scientific_name": "Vaccinium myrtillus",
+    "image_url": "https://bs.plantnet.org/image/o/76e8f509a667a1110611d76c7b84d5bbc03ccb1f",
+    "google_url": "https://www.google.com/search?q=European blueberry",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Vaccinium%20myrtillus%20L/data"
+  },
+  {
+    "id": "ari-9",
+    "common_name": "Common horsetail",
+    "scientific_name": "Equisetum arvense",
+    "image_url": "https://bs.plantnet.org/image/o/38b0d1c57a937cef46001b123e55b54585886243",
+    "google_url": "https://www.google.com/search?q=Common horsetail",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Equisetum%20arvense%20L/data"
+  },
+  {
+    "id": "ari-10",
+    "common_name": "Gardener's-garters",
+    "scientific_name": "Phalaris arundinacea",
+    "image_url": "https://bs.plantnet.org/image/o/c43cde942d68b916cabc35b415d92ba588786862",
+    "google_url": "https://www.google.com/search?q=Gardener's-garters",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Phalaris%20arundinacea%20L/data"
+  },
+  {
+    "id": "ari-11",
+    "common_name": "Common juniper",
+    "scientific_name": "Juniperus communis",
+    "image_url": "https://bs.plantnet.org/image/o/e4676fc7c7ba86abd9273548ad8542756d3d8e23",
+    "google_url": "https://www.google.com/search?q=Common juniper",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juniperus%20communis%20L/data"
+  },
+  {
+    "id": "ari-12",
+    "common_name": "Male fern",
+    "scientific_name": "Dryopteris filix-mas",
+    "image_url": "https://bs.plantnet.org/image/o/0d032ccdbc62d58f986aa11f896db68c240059c0",
+    "google_url": "https://www.google.com/search?q=Male fern",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Dryopteris%20filix-mas%20L/data"
+  },
+  {
+    "id": "ari-13",
+    "common_name": "Alpine strawberry",
+    "scientific_name": "Fragaria vesca",
+    "image_url": "https://bs.plantnet.org/image/o/4f45fd2d82661996f5d5a5613b39bdd1287a56bc",
+    "google_url": "https://www.google.com/search?q=Alpine strawberry",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Fragaria%20vesca%20L/data"
+  },
+  {
+    "id": "ari-14",
+    "common_name": "Prostrate knotweed",
+    "scientific_name": "Polygonum aviculare",
+    "image_url": "https://bs.plantnet.org/image/o/a4462ace6b925f24b1c7dc20e9e7bf76bb63647e",
+    "google_url": "https://www.google.com/search?q=Prostrate knotweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Polygonum%20aviculare%20L/data"
+  },
+  {
+    "id": "ari-15",
+    "common_name": "Raspberry",
+    "scientific_name": "Rubus idaeus",
+    "image_url": "https://bs.plantnet.org/image/o/3b3a54636d4be030d9ac190474415f3a2f3d7e6b",
+    "google_url": "https://www.google.com/search?q=Raspberry",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Rubus%20idaeus%20L/data"
+  },
+  {
+    "id": "ari-16",
+    "common_name": null,
+    "scientific_name": "Argentina anserina",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/56e0e199c12748c3ab85be84bf68b161.jpg",
+    "google_url": "https://www.google.com/search?q=None",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Argentina%20anserina%20L/data"
+  },
+  {
+    "id": "ari-17",
+    "common_name": "Bearbind",
+    "scientific_name": "Calystegia sepium",
+    "image_url": "https://bs.plantnet.org/image/o/20b690d0b4fd584c21993b5aad41e4b4a059ff68",
+    "google_url": "https://www.google.com/search?q=Bearbind",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Calystegia%20sepium%20L/data"
+  },
+  {
+    "id": "ari-18",
+    "common_name": "Common ladyfern",
+    "scientific_name": "Athyrium filix-femina",
+    "image_url": "https://bs.plantnet.org/image/o/0607f6e466d0e291de96ec91f988c8f97a48d9ca",
+    "google_url": "https://www.google.com/search?q=Common ladyfern",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Athyrium%20filix-femina%20L/data"
+  },
+  {
+    "id": "ari-19",
+    "common_name": "Joint-leaf rush",
+    "scientific_name": "Juncus articulatus",
+    "image_url": "https://bs.plantnet.org/image/o/ed406c2fc06b9ed4c842eb0c62cf007b575554ca",
+    "google_url": "https://www.google.com/search?q=Joint-leaf rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juncus%20articulatus%20L/data"
+  },
+  {
+    "id": "ari-20",
+    "common_name": "Lesser spearwort",
+    "scientific_name": "Ranunculus flammula",
+    "image_url": "https://bs.plantnet.org/image/o/e0ab3f57601a2a5ef513ecbbaab008d99f268d32",
+    "google_url": "https://www.google.com/search?q=Lesser spearwort",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Ranunculus%20flammula%20L/data"
+  }
+]

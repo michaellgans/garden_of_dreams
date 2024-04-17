@@ -1,0 +1,162 @@
+"Mississippi": [
+  {
+    "id": "msi-1",
+    "common_name": "Milfoil",
+    "scientific_name": "Achillea millefolium",
+    "image_url": "https://bs.plantnet.org/image/o/d788a757cd8bac8c3b1378a970c078a7a937a174",
+    "google_url": "https://www.google.com/search?q=Milfoil",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Achillea%20millefolium%20L/data"
+  },
+  {
+    "id": "msi-2",
+    "common_name": "Soft rush",
+    "scientific_name": "Juncus effusus",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/31545c7b5c65236a5d7f28ca040ee058.jpg",
+    "google_url": "https://www.google.com/search?q=Soft rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juncus%20effusus%20L/data"
+  },
+  {
+    "id": "msi-3",
+    "common_name": "Ditch reed",
+    "scientific_name": "Phragmites australis",
+    "image_url": "https://bs.plantnet.org/image/o/8a74932da925aea8224f7929bf701806abec0c84",
+    "google_url": "https://www.google.com/search?q=Ditch reed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Phragmites%20australis%20L/data"
+  },
+  {
+    "id": "msi-4",
+    "common_name": "Heal-all",
+    "scientific_name": "Prunella vulgaris",
+    "image_url": "https://bs.plantnet.org/image/o/b46f4000f9bec28dc6d74d501ddc15445e7f7667",
+    "google_url": "https://www.google.com/search?q=Heal-all",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Prunella%20vulgaris%20L/data"
+  },
+  {
+    "id": "msi-5",
+    "common_name": "Smooth meadow grass",
+    "scientific_name": "Poa pratensis",
+    "image_url": "https://bs.plantnet.org/image/o/6e25db3d223a2e7b26a3c762c4861ab5fb9010ac",
+    "google_url": "https://www.google.com/search?q=Smooth meadow grass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Poa%20pratensis%20L/data"
+  },
+  {
+    "id": "msi-6",
+    "common_name": "Common horsetail",
+    "scientific_name": "Equisetum arvense",
+    "image_url": "https://bs.plantnet.org/image/o/38b0d1c57a937cef46001b123e55b54585886243",
+    "google_url": "https://www.google.com/search?q=Common horsetail",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Equisetum%20arvense%20L/data"
+  },
+  {
+    "id": "msi-7",
+    "common_name": "Alpine strawberry",
+    "scientific_name": "Fragaria vesca",
+    "image_url": "https://bs.plantnet.org/image/o/4f45fd2d82661996f5d5a5613b39bdd1287a56bc",
+    "google_url": "https://www.google.com/search?q=Alpine strawberry",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Fragaria%20vesca%20L/data"
+  },
+  {
+    "id": "msi-8",
+    "common_name": "Prostrate knotweed",
+    "scientific_name": "Polygonum aviculare",
+    "image_url": "https://bs.plantnet.org/image/o/a4462ace6b925f24b1c7dc20e9e7bf76bb63647e",
+    "google_url": "https://www.google.com/search?q=Prostrate knotweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Polygonum%20aviculare%20L/data"
+  },
+  {
+    "id": "msi-9",
+    "common_name": "Bearbind",
+    "scientific_name": "Calystegia sepium",
+    "image_url": "https://bs.plantnet.org/image/o/20b690d0b4fd584c21993b5aad41e4b4a059ff68",
+    "google_url": "https://www.google.com/search?q=Bearbind",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Calystegia%20sepium%20L/data"
+  },
+  {
+    "id": "msi-10",
+    "common_name": "Fat-hen",
+    "scientific_name": "Chenopodium album",
+    "image_url": "https://bs.plantnet.org/image/o/7210dfc0c2a48bdde194bef37c7b7956974bc1b7",
+    "google_url": "https://www.google.com/search?q=Fat-hen",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Chenopodium%20album%20L/data"
+  },
+  {
+    "id": "msi-11",
+    "common_name": "Horseweed",
+    "scientific_name": "Erigeron canadensis",
+    "image_url": "https://bs.plantnet.org/image/o/86eb5d75c66e9900e6c73d5ca8973dc139d6a3df",
+    "google_url": "https://www.google.com/search?q=Horseweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Erigeron%20canadensis%20L/data"
+  },
+  {
+    "id": "msi-12",
+    "common_name": "Cooper's-reed",
+    "scientific_name": "Typha latifolia",
+    "image_url": "https://bs.plantnet.org/image/o/896148400cd6f86e1fc848891e6373451a8178fc",
+    "google_url": "https://www.google.com/search?q=Cooper's-reed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Typha%20latifolia%20L/data"
+  },
+  {
+    "id": "msi-13",
+    "common_name": "Disc mayweed",
+    "scientific_name": "Matricaria discoidea",
+    "image_url": "https://bs.plantnet.org/image/o/ae2676f16dbe8c6495946e32eff656a97ddd6c20",
+    "google_url": "https://www.google.com/search?q=Disc mayweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Matricaria%20discoidea%20L/data"
+  },
+  {
+    "id": "msi-14",
+    "common_name": "Duckweed",
+    "scientific_name": "Lemna minor",
+    "image_url": "https://bs.plantnet.org/image/o/900c5abdc662b4aa0bb8ca5a3a7861488327e02c",
+    "google_url": "https://www.google.com/search?q=Duckweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Lemna%20minor%20L/data"
+  },
+  {
+    "id": "msi-15",
+    "common_name": "Creeping spike-rush",
+    "scientific_name": "Eleocharis palustris",
+    "image_url": "https://bs.plantnet.org/image/o/b28acfaa2f16adaa6ef81ab931313cd69f954243",
+    "google_url": "https://www.google.com/search?q=Creeping spike-rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Eleocharis%20palustris%20L/data"
+  },
+  {
+    "id": "msi-16",
+    "common_name": "Wavy hairgrass",
+    "scientific_name": "Avenella flexuosa",
+    "image_url": "https://bs.plantnet.org/image/o/c205d8f96773c1435b7c08297b32600c390134a2",
+    "google_url": "https://www.google.com/search?q=Wavy hairgrass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Avenella%20flexuosa%20L/data"
+  },
+  {
+    "id": "msi-17",
+    "common_name": "Daisy fleabane",
+    "scientific_name": "Erigeron annuus",
+    "image_url": "https://bs.plantnet.org/image/o/6ca945386171048df4d6c6686ddb8cd021350758",
+    "google_url": "https://www.google.com/search?q=Daisy fleabane",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Erigeron%20annuus%20L/data"
+  },
+  {
+    "id": "msi-18",
+    "common_name": "Maidenhair spleenwort",
+    "scientific_name": "Asplenium trichomanes",
+    "image_url": "https://bs.plantnet.org/image/o/6fc8be3111a0a0fff05946f1e4d0600b4ac87599",
+    "google_url": "https://www.google.com/search?q=Maidenhair spleenwort",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Asplenium%20trichomanes%20L/data"
+  },
+  {
+    "id": "msi-19",
+    "common_name": "Round-leaf sundew",
+    "scientific_name": "Drosera rotundifolia",
+    "image_url": "https://bs.plantnet.org/image/o/41da3b6ee7e3e1f126ca90aabedb52a062d9dc7b",
+    "google_url": "https://www.google.com/search?q=Round-leaf sundew",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Drosera%20rotundifolia%20L/data"
+  },
+  {
+    "id": "msi-20",
+    "common_name": "Rum cherry",
+    "scientific_name": "Prunus serotina",
+    "image_url": "https://bs.plantnet.org/image/o/74ff6780c79e4f4ffa984c451f40ede7325a688b",
+    "google_url": "https://www.google.com/search?q=Rum cherry",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Prunus%20serotina%20L/data"
+  }
+]

@@ -1,0 +1,162 @@
+"Alabama": [
+  {
+    "id": "ala-1",
+    "common_name": "Milfoil",
+    "scientific_name": "Achillea millefolium",
+    "image_url": "https://bs.plantnet.org/image/o/d788a757cd8bac8c3b1378a970c078a7a937a174",
+    "google_url": "https://www.google.com/search?q=Milfoil",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Achillea%20millefolium%20L/data"
+  },
+  {
+    "id": "ala-2",
+    "common_name": "Red fescue",
+    "scientific_name": "Festuca rubra",
+    "image_url": "https://bs.plantnet.org/image/o/fb1967942b880fb7c978ff76741d348a22611b88",
+    "google_url": "https://www.google.com/search?q=Red fescue",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Festuca%20rubra%20L/data"
+  },
+  {
+    "id": "ala-3",
+    "common_name": "Soft rush",
+    "scientific_name": "Juncus effusus",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/31545c7b5c65236a5d7f28ca040ee058.jpg",
+    "google_url": "https://www.google.com/search?q=Soft rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juncus%20effusus%20L/data"
+  },
+  {
+    "id": "ala-4",
+    "common_name": "Ditch reed",
+    "scientific_name": "Phragmites australis",
+    "image_url": "https://bs.plantnet.org/image/o/8a74932da925aea8224f7929bf701806abec0c84",
+    "google_url": "https://www.google.com/search?q=Ditch reed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Phragmites%20australis%20L/data"
+  },
+  {
+    "id": "ala-5",
+    "common_name": "Heal-all",
+    "scientific_name": "Prunella vulgaris",
+    "image_url": "https://bs.plantnet.org/image/o/b46f4000f9bec28dc6d74d501ddc15445e7f7667",
+    "google_url": "https://www.google.com/search?q=Heal-all",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Prunella%20vulgaris%20L/data"
+  },
+  {
+    "id": "ala-6",
+    "common_name": "Smooth meadow grass",
+    "scientific_name": "Poa pratensis",
+    "image_url": "https://bs.plantnet.org/image/o/6e25db3d223a2e7b26a3c762c4861ab5fb9010ac",
+    "google_url": "https://www.google.com/search?q=Smooth meadow grass",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Poa%20pratensis%20L/data"
+  },
+  {
+    "id": "ala-7",
+    "common_name": "Common horsetail",
+    "scientific_name": "Equisetum arvense",
+    "image_url": "https://bs.plantnet.org/image/o/38b0d1c57a937cef46001b123e55b54585886243",
+    "google_url": "https://www.google.com/search?q=Common horsetail",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Equisetum%20arvense%20L/data"
+  },
+  {
+    "id": "ala-8",
+    "common_name": "Gardener's-garters",
+    "scientific_name": "Phalaris arundinacea",
+    "image_url": "https://bs.plantnet.org/image/o/c43cde942d68b916cabc35b415d92ba588786862",
+    "google_url": "https://www.google.com/search?q=Gardener's-garters",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Phalaris%20arundinacea%20L/data"
+  },
+  {
+    "id": "ala-9",
+    "common_name": "Common juniper",
+    "scientific_name": "Juniperus communis",
+    "image_url": "https://bs.plantnet.org/image/o/e4676fc7c7ba86abd9273548ad8542756d3d8e23",
+    "google_url": "https://www.google.com/search?q=Common juniper",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juniperus%20communis%20L/data"
+  },
+  {
+    "id": "ala-10",
+    "common_name": "Prostrate knotweed",
+    "scientific_name": "Polygonum aviculare",
+    "image_url": "https://bs.plantnet.org/image/o/a4462ace6b925f24b1c7dc20e9e7bf76bb63647e",
+    "google_url": "https://www.google.com/search?q=Prostrate knotweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Polygonum%20aviculare%20L/data"
+  },
+  {
+    "id": "ala-11",
+    "common_name": "Bearbind",
+    "scientific_name": "Calystegia sepium",
+    "image_url": "https://bs.plantnet.org/image/o/20b690d0b4fd584c21993b5aad41e4b4a059ff68",
+    "google_url": "https://www.google.com/search?q=Bearbind",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Calystegia%20sepium%20L/data"
+  },
+  {
+    "id": "ala-12",
+    "common_name": "Fat-hen",
+    "scientific_name": "Chenopodium album",
+    "image_url": "https://bs.plantnet.org/image/o/7210dfc0c2a48bdde194bef37c7b7956974bc1b7",
+    "google_url": "https://www.google.com/search?q=Fat-hen",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Chenopodium%20album%20L/data"
+  },
+  {
+    "id": "ala-13",
+    "common_name": "Horseweed",
+    "scientific_name": "Erigeron canadensis",
+    "image_url": "https://bs.plantnet.org/image/o/86eb5d75c66e9900e6c73d5ca8973dc139d6a3df",
+    "google_url": "https://www.google.com/search?q=Horseweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Erigeron%20canadensis%20L/data"
+  },
+  {
+    "id": "ala-14",
+    "common_name": "Spinulose woodfern",
+    "scientific_name": "Dryopteris carthusiana",
+    "image_url": "https://bs.plantnet.org/image/o/0cec6b8d1e2427996f680fc903429818cf122677",
+    "google_url": "https://www.google.com/search?q=Spinulose woodfern",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Dryopteris%20carthusiana%20L/data"
+  },
+  {
+    "id": "ala-15",
+    "common_name": "Cooper's-reed",
+    "scientific_name": "Typha latifolia",
+    "image_url": "https://bs.plantnet.org/image/o/896148400cd6f86e1fc848891e6373451a8178fc",
+    "google_url": "https://www.google.com/search?q=Cooper's-reed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Typha%20latifolia%20L/data"
+  },
+  {
+    "id": "ala-16",
+    "common_name": "Duckweed",
+    "scientific_name": "Lemna minor",
+    "image_url": "https://bs.plantnet.org/image/o/900c5abdc662b4aa0bb8ca5a3a7861488327e02c",
+    "google_url": "https://www.google.com/search?q=Duckweed",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Lemna%20minor%20L/data"
+  },
+  {
+    "id": "ala-17",
+    "common_name": "False acacia",
+    "scientific_name": "Robinia pseudoacacia",
+    "image_url": "https://bs.plantnet.org/image/o/5fbe3abeb5ae73f54b67cd4f85efff50a25b1f6c",
+    "google_url": "https://www.google.com/search?q=False acacia",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Robinia%20pseudoacacia%20L/data"
+  },
+  {
+    "id": "ala-18",
+    "common_name": "Toad rush",
+    "scientific_name": "Juncus bufonius",
+    "image_url": "https://bs.plantnet.org/image/o/60ebd1de21b3dfe853e57a17074ea1baba82c0b1",
+    "google_url": "https://www.google.com/search?q=Toad rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Juncus%20bufonius%20L/data"
+  },
+  {
+    "id": "ala-19",
+    "common_name": "Thyme speedwell",
+    "scientific_name": "Veronica serpyllifolia",
+    "image_url": "https://bs.plantnet.org/image/o/38e085472448feab2d567f167573c74461878122",
+    "google_url": "https://www.google.com/search?q=Thyme speedwell",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Veronica%20serpyllifolia%20L/data"
+  },
+  {
+    "id": "ala-20",
+    "common_name": "Creeping spike-rush",
+    "scientific_name": "Eleocharis palustris",
+    "image_url": "https://bs.plantnet.org/image/o/b28acfaa2f16adaa6ef81ab931313cd69f954243",
+    "google_url": "https://www.google.com/search?q=Creeping spike-rush",
+    "plantnet_url": "https://identify.plantnet.org/k-world-flora/species/Eleocharis%20palustris%20L/data"
+  }
+]

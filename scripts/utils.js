@@ -1,3 +1,4 @@
+// Comment A (local, main) 4/17 11:20am
 $(document).ready(function() {
   // Fetch the JSON file
   $.getJSON('../static/data/states.json', function(data) {
@@ -42,6 +43,7 @@ function displayPlants(plants) {
 
   var plantsContainer = $("#plantsContainer");
   plantsContainer.empty(); // Clear existing plants
+	var idCount = 1;
 
   $.each(plants, function(index, plant) {
     var plantDiv = $("<div>");
@@ -54,7 +56,7 @@ function displayPlants(plants) {
 	</div>
 
 	<!-- Modal for Plant 1 -->
-	<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="exampleModal${idCount}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">

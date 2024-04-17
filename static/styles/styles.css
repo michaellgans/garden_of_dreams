@@ -8,11 +8,8 @@
 }
 
 /* Bootstrap Reassignments */
-.text-primary {
-    color: var(--dark-green)!important;
-}
-
-.text-secondary {
+.text-primary,
+.nav-link {
     color: whitesmoke!important;
 }
 
@@ -63,6 +60,17 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    opacity: 0; /* Initially set the opacity to 0 */
+    animation: fadeIn 4s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .title-container {
@@ -77,6 +85,12 @@ body {
     margin: 0;
     padding-bottom: 33px;
     line-height: 0.7;
+    letter-spacing: 6px;
+    color: var(--dark-green);
+}
+
+.subtitle {
+    color: var(--dark-green);
 }
 
 /* Footer */
@@ -87,19 +101,8 @@ body {
     width: 100%;
 }
 
-/* Garden */
-.region-navigation {
-
-}
-
-.you-are-here {
-
-}
-
-.map {
-
-}
-
-.region {
-    
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

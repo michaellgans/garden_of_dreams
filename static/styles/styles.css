@@ -47,7 +47,8 @@
 /* Background Image */
 body {
     background-color: var(--chiffon);
-    /* max-width: 100%;
+    /* background-image: url(../images/Dungeon-Alchemist-Capture2.gif);
+    max-width: 100%;
     height: auto;
     background-position-x: center;
     background-size: cover;
@@ -56,13 +57,31 @@ body {
 
 /* Hero Section */
 .hero-section {
-    margin-top: 12rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    opacity: 0; /* Initially set the opacity to 0 */
-    animation: fadeIn 4s ease forwards;
 }
+
+.card.hero-section {
+    height: 500px;
+    width: 1200px;
+    background-image: url(../images/Dungeon-Alchemist-Capture2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: -386px;
+    background-position-y: -340px;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+}
+
+/* .hero-section {
+    background-image: url(../images/Dungeon-Alchemist-Capture2.gif);
+    background-position-x: center;
+    background-repeat: no-repeat;
+} */
 
 @keyframes fadeIn {
     from {
@@ -78,6 +97,8 @@ body {
     border-radius: 30px;
     background: radial-gradient(ellipse, rgba(250, 240, 202, 0.55) 50%, rgba(250, 240, 202, 0) 90%);
     /* background: radial-gradient(circle, rgba(250, 240, 202, 0.2) 0%, rgba(250, 240, 202, 0.5) 50%, rgba(250, 240, 202, 0) 100%); */
+    opacity: 0;
+    animation: fadeIn 4s ease forwards;
 }
 
 .hero-title {

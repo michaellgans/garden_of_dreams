@@ -48,7 +48,7 @@ function displayPlants(plants) {
   $.each(plants, function(index, plant) {
     var plantDiv = $("<div>");
     plantDiv.html(`
-		<div class="plantCard m-2" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="background-image: url(${plant.image_url})">
+		<div class="plantCard m-2" data-bs-toggle="modal" data-bs-target="#exampleModal${idCount}" style="background-image: url(${plant.image_url})">
 		<div class="plantCardInfo m-2 p-2">
 			<h3 class="card-title">${plant.common_name}</h3>
 			<p class="card-subtitle fst-italic">${plant.scientific_name}</p>
@@ -65,9 +65,11 @@ function displayPlants(plants) {
 				<div class="modal-body d-flex flex-column">
 					<img class="plant-photo" src="${plant.image_url}">
 					<div class="plantCardInfo m-2 p-2">
-						<h3 class="card-title"${plant.common_name}</h3>
+						<h3 class="card-title">${plant.common_name}</h3>
 						<p class="card-subtitle fst-italic">${plant.scientific_name}</p>
-						<p class="plant-blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque amet provident fugiat libero? Eveniet odit culpa eaque molestiae, autem <a href="#">atque!</a></p>
+						<div class="card-text plant-links">
+							<p class="plant-blurb">Want to learn more?</p>
+						</div>
 					</div>
 				</div>
 				<div class="modal-footer">
@@ -91,7 +93,7 @@ function displayPlants(plants) {
 							</svg>
 						</a>
 					</button>
-					<button type="button" class="btn next-button" data-bs-target="#exampleModal2" data-bs-toggle="modal">
+					<button type="button" class="btn next-button" data-bs-target="#exampleModal${idCount + 1}" data-bs-toggle="modal">
 						<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
 							<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
 						</svg>
@@ -102,6 +104,7 @@ function displayPlants(plants) {
 	</div>
     `);
     plantsContainer.append(plantDiv);
+		idCount += 1;
   });
 }
 

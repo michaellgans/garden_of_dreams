@@ -200,3 +200,7 @@ body {
     border-radius: 50%;
     height: 100px;
 }
+
+#plantsContainer {
+	color: var(--dark-green);
+}

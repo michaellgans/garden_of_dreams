@@ -155,10 +155,7 @@ function displayPlants(plants) {
 						<h3 class="card-title">${plant.common_name}</h3>
 						<p class="card-subtitle fst-italic">${plant.scientific_name}</p>
 						<div class="pt-4 card-text-body justify-content-center align-items-center">
-							<div class="p-0 text-center row mt-2 mb-3">
-								<h2 class="learn-more text-center font-weight-bold charm-bold">Want to learn more?</h2>
-							</div>
-							<div class="font-weight-light justify-content-between row text-center search-text mt-2 p-0">
+							<div class="font-weight-light justify-content-between row text-center search-text p-0">
 								<div class="col-5">
 									<button type="button" class="btn google-button row">
 									<a class="text-reset text-decoration-none" href="${plant.google_url}" alt="Search with Google">
@@ -189,6 +186,11 @@ function displayPlants(plants) {
 							<path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
 							<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
 						</svg>
+					</button>
+					<button type="button" class="btn submit-button">
+					<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+					<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 2H3v20h13v-7h1v8H2V1h15v9h-1zm3.425 6.632l-.707.707L21.378 12H9v1h12.309l-2.649 2.648.707.707 3.89-3.89z"/><path fill="none" d="M0 0h24v24H0z"/>
+					</svg>
 					</button>
 					<button type="button" class="btn next-button" data-bs-target="#exampleModal${idCount + 1}" data-bs-toggle="modal">
 						<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">

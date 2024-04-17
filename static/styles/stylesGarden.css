@@ -204,3 +204,12 @@ body {
 #plantsContainer {
 	color: var(--dark-green);
 }
+
+/* .modal-footer {
+	background-color: var(--emerald);
+} */
+
+.modal-footer button {
+	background-color: var(--emerald);
+	border-radius: 20%;
+}

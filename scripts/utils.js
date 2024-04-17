@@ -29,6 +29,93 @@ $(document).ready(function() {
     var err = textStatus + ", " + error;
     console.error("Error fetching JSON file: " + err);
   });
+
+
+	const leaves = document.querySelectorAll('.leaf');
+
+	// Function to handle leaf hover
+	const leftLeaf1 = document.getElementById('leftleaf1');
+	const leftLeaf2 = document.getElementById('leftleaf2');
+	const rightLeaf1 = document.getElementById('rightleaf1');
+	const rightLeaf2 = document.getElementById('rightleaf2');
+
+	let isTransitionInProgress1 = false;
+	let isTransitionInProgress2 = false;
+	let isTransitionInProgress3 = false;
+	let isTransitionInProgress4 = false;
+
+	leftLeaf1.addEventListener('mouseenter', () => {
+    if (!isTransitionInProgress1) {
+			isTransitionInProgress1 = true;
+			// Change the image src to the closing GIF
+			leftLeaf1.src = '../static/images/ClosingLeafLeft.gif';
+			setTimeout(() => {
+				leftLeaf1.src = '../static/images/ClosedLeafLeft.png';
+				setTimeout(() => {
+					leftLeaf1.src = '../static/images/OpeningLeafLeft.gif';
+					leftLeaf1.addEventListener('animationend', () => {
+						leftLeaf1.src = '../static/images/OpenLeafLeft.png';
+						isTransitionInProgress1 = false;
+					}, { once: true });
+				}, 2000);
+			}, 2000);
+    }
+	});
+
+	leftLeaf2.addEventListener('mouseenter', () => {
+    if (!isTransitionInProgress2) {
+			isTransitionInProgress2 = true;
+			// Change the image src to the closing GIF
+			leftLeaf2.src = '../static/images/ClosingLeafLeft.gif';
+			setTimeout(() => {
+				leftLeaf2.src = '../static/images/ClosedLeafLeft.png';
+				setTimeout(() => {
+					leftLeaf2.src = '../static/images/OpeningLeafLeft.gif';
+					leftLeaf2.addEventListener('animationend', () => {
+						leftLeaf2.src = '../static/images/OpenLeafLeft.png';
+						isTransitionInProgress2 = false;
+					}, { once: true });
+				}, 2000);
+			}, 2000);
+    }
+	});
+
+	rightLeaf1.addEventListener('mouseenter', () => {
+    if (!isTransitionInProgress3) {
+			isTransitionInProgress3 = true;
+			// Change the image src to the closing GIF
+			rightLeaf1.src = '../static/images/ClosingLeafRight.gif';
+			setTimeout(() => {
+				rightLeaf1.src = '../static/images/ClosedLeafRight.png';
+				setTimeout(() => {
+					rightLeaf1.src = '../static/images/OpeningLeafRight.gif';
+					rightLeaf1.addEventListener('animationend', () => {
+						rightLeaf1.src = '../static/images/OpenLeafRight.png';
+						isTransitionInProgress3 = false;
+					}, { once: true });
+				}, 2000);
+			}, 2000);
+    }
+	});
+
+	rightLeaf2.addEventListener('mouseenter', () => {
+    if (!isTransitionInProgress4) {
+			isTransitionInProgress4 = true;
+			// Change the image src to the closing GIF
+			rightLeaf2.src = '../static/images/ClosingLeafRight.gif';
+			setTimeout(() => {
+				rightLeaf2.src = '../static/images/ClosedLeafRight.png';
+				setTimeout(() => {
+					rightLeaf2.src = '../static/images/OpeningLeafRight.gif';
+					rightLeaf2.addEventListener('animationend', () => {
+						rightLeaf2.src = '../static/images/OpenLeafRight.png';
+						isTransitionInProgress4 = false;
+					}, { once: true });
+				}, 2000);
+			}, 2000);
+    }
+	});
+
 });
 
 function changeTitle(state) {
@@ -127,6 +214,8 @@ function shuffleArray(array) {
   }
   return array;
 }
+
+
 
 // document.addEventListener("DOMContentLoaded", function() {
 // 	const button = document.getElementById("card-button");

@@ -93,9 +93,9 @@ body {
 }
 
 .title-container {
-    padding: 20px;
+    padding-bottom: 60px;
     border-radius: 30px;
-    background: radial-gradient(ellipse, rgba(250, 240, 202, 0.55) 50%, rgba(250, 240, 202, 0) 90%);
+    background: radial-gradient(ellipse, rgba(250, 240, 202, 0.6) 30%, rgba(250, 240, 202, 0) 50%);
     /* background: radial-gradient(circle, rgba(250, 240, 202, 0.2) 0%, rgba(250, 240, 202, 0.5) 50%, rgba(250, 240, 202, 0) 100%); */
     opacity: 0;
     animation: fadeIn 4s ease forwards;
@@ -112,6 +112,26 @@ body {
 
 .subtitle {
     color: var(--dark-green);
+}
+
+.leaves {
+	display: flex;
+	width: 100%;
+	margin-top: 6rem;
+}
+
+.btn-secondary {
+	background-color: var(--dark-green);
+	width: auto;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	align-items: center;
+	font-size: large;
+}
+.enter-button {
+	justify-content: center;
+	display: flex;
 }
 
 /* Footer */

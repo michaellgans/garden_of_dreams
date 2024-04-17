@@ -127,6 +127,19 @@ body {
     width: 100%;
 }
 
+/* Leaves */
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+.garden-container {
+	display: flex;
+}
 /* State Section */
 
 .state-section {

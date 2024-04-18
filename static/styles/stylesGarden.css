@@ -149,11 +149,7 @@ body {
 	height: auto;
 }
 
-
-
-
 /* State Section */
-
 .state-section {
     background-color: whitesmoke;
     height: 260px;
@@ -209,11 +205,14 @@ body {
 	color: var(--dark-green);
 }
 
-/* .modal-footer {
-	background-color: var(--emerald);
-} */
-
 .modal-footer button {
 	background-color: var(--emerald);
 	border-radius: 20%;
+}
+
+/* Modal Basket */
+.basket-title {
+    text-align: center;
+    border: solid 1px red;
+    width: 100%;
 }

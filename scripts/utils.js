@@ -23,6 +23,19 @@ $(document).ready(function() {
 			plantsContainer.empty();
       displayPlants(plants);
     });
+
+
+		$("#generate-more").on("click", function() {
+			var dropdown = $("#stateDropdown");
+			var selectedState = dropdown.val();
+			console.log("Generate More button was clicked")
+			var plants = data.states[selectedState];
+			var plantsContainer = $("#plantsContainer");
+			plantsContainer.empty();
+      displayPlants(plants);
+		})
+
+		
   })
   .fail(function(jqxhr, textStatus, error) {
     var err = textStatus + ", " + error;
@@ -216,12 +229,6 @@ function shuffleArray(array) {
   return array;
 }
 
-/* Generate More Button */
-$("#generate-more").on("click", function() {
-	console.log("Generate More button was clicked")
-	console.log(plants)
-	displayPlants();
-});
 
 
 

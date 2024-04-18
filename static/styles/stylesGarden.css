@@ -61,6 +61,10 @@
     color: whitesmoke!important;
 }
 
+.nav-link:hover {
+    color: var(--dark-green)!important;
+}
+
 .navbar {
     background-color: var(--emerald)!important;
     border: none;

@@ -47,12 +47,6 @@
 /* Background Image */
 body {
     background-color: var(--chiffon);
-    /* background-image: url(../images/Dungeon-Alchemist-Capture2.gif);
-    max-width: 100%;
-    height: auto;
-    background-position-x: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 /* Hero Section */
@@ -77,11 +71,22 @@ body {
     justify-content: center;
 }
 
-/* .hero-section {
-    background-image: url(../images/Dungeon-Alchemist-Capture2.gif);
-    background-position-x: center;
-    background-repeat: no-repeat;
-} */
+.title-container {
+    padding-top: 152px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: radial-gradient(ellipse, rgba(250, 240, 202, 0.6) 30%, rgba(250, 240, 202, 0) 50%);
+    /* background: radial-gradient(circle, rgba(250, 240, 202, 0.2) 0%, rgba(250, 240, 202, 0.5) 50%, rgba(250, 240, 202, 0) 100%); */
+    opacity: 0;
+    height: 405px;
+    animation: fadeIn 4s ease forwards;
+}
+
+.fade2 {
+    opacity: 0;
+    animation: fadeIn 4s ease forwards;
+    animation-delay: 1s;
+}
 
 @keyframes fadeIn {
     from {
@@ -90,15 +95,6 @@ body {
     to {
         opacity: 1;
     }
-}
-
-.title-container {
-    padding-bottom: 60px;
-    border-radius: 30px;
-    background: radial-gradient(ellipse, rgba(250, 240, 202, 0.6) 30%, rgba(250, 240, 202, 0) 50%);
-    /* background: radial-gradient(circle, rgba(250, 240, 202, 0.2) 0%, rgba(250, 240, 202, 0.5) 50%, rgba(250, 240, 202, 0) 100%); */
-    opacity: 0;
-    animation: fadeIn 4s ease forwards;
 }
 
 .hero-title {
@@ -121,17 +117,14 @@ body {
 }
 
 .btn-secondary {
-	background-color: var(--dark-green);
-	width: auto;
-	margin: auto;
-	padding: auto;
-	text-align: center;
-	align-items: center;
-	font-size: large;
+	background-color: var(--emerald);
+    border: none;
+    width: 177px;
 }
+
 .enter-button {
-	justify-content: center;
-	display: flex;
+    color: inherit;
+    text-decoration: var(--dark-green);
 }
 
 /* Footer */

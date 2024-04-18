@@ -1,4 +1,3 @@
-// Comment A (local, main) 4/17 11:20am
 $(document).ready(function() {
   // Fetch the JSON file
   $.getJSON('../static/data/states.json', function(data) {
@@ -216,6 +215,13 @@ function shuffleArray(array) {
   }
   return array;
 }
+
+/* Generate More Button */
+$("#generate-more").on("click", function() {
+	console.log("Generate More button was clicked")
+	console.log(plants)
+	displayPlants();
+});
 
 
 

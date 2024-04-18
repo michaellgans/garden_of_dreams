@@ -205,14 +205,18 @@ body {
 	color: var(--dark-green);
 }
 
-.modal-footer button {
+/* .modal-footer button {
 	background-color: var(--emerald);
 	border-radius: 20%;
-}
+} */
 
 /* Modal Basket */
 .basket-title {
     text-align: center;
-    border: solid 1px red;
     width: 100%;
+}
+
+.basket-image {
+    width: 75%;
+    border-radius: 20%;
 }

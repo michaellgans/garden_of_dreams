@@ -107,22 +107,30 @@
         <select class="dropdown btn btn-secondary dropdown-toggle" id="stateDropdown">
           <option>Select a State</option>
         </select>
-      <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#basketModal">Your Basket</button>
+      <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#basketModal">Seed Basket</button>
 
       <!-- Modal Basket -->
       <div class="modal fade" id="basketModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5 basket-title" id="exampleModalLabel">Modal title</h1>
+              <h1 class="modal-title fs-5 basket-title" id="exampleModalLabel">
+                Seed Basket
+              </h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="modal-body d-flex justify-content-center flex-column align-items-center">
+              <img class="basket-image" src="../static/images/basket.jpg">
+              <div class="lowes m-3">
+                <button class="btn btn-secondary">
+                  Find Seeds at Lowes
+                </button>
+              </div>
+              <div class="amazon m-3">
+                <button class="btn btn-secondary">
+                  Find Seeds at Amazon
+                </button>
+              </div>
             </div>
           </div>
         </div>

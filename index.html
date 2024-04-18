@@ -28,41 +28,65 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-            <a class="navbar-brand text-primary" href="https://michaellgans.github.io/garden_of_dreams/index.html">
-				<img 
-                    src="static/images/carawayLogoTitle.png" 
-                    alt="Caraway Logo"
-                    aria-label="Logo for Caraway"
-                    width="100" height="60" >
-			</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active text-primary" 
-                        aria-current="page" 
-                        aria-label="Navigate to the Explore Page"
-                        href="./pages/garden.html">Explore</a>
-                </li>
-                <li class="nav-item text-primary">
-                    <a class="nav-link" href="https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers">Learn About Your State</a>
-                </li>
-                <li class="nav-item dropdown text-primary">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    How to Help the Bees
-                    </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="https://blog.nwf.org/2021/06/five-ways-to-help-bees-at-home/">National Wildlife Foundataion</a></li>
-                    <li><a class="dropdown-item" href="https://thebeeconservancy.org/10-ways-to-save-the-bees/">The Bee Conservancy</a></li>
-                    <li><a class="dropdown-item" href="https://savebees.org/">Save Bees</a></li>
+                <a class="navbar-brand text-primary" href="https://michaellgans.github.io/garden_of_dreams/index.html">
+                    <img 
+                        src="static/images/carawayLogoTitle.png" 
+                        alt="Caraway Logo"
+                        aria-label="Logo for Caraway"
+                        width="100" height="60" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary" 
+                                aria-current="page" 
+                                aria-label="Navigate to the Explore Page"
+                                href="./pages/garden.html">
+                                Explore
+                            </a>
+                        </li>
+                        <li class="nav-item text-primary">
+                            <a class="nav-link" 
+                                aria-label="Navigate to Learn About Your State"
+                                href="https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_flowers">
+                                Learn About Your State
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown text-primary">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            How to Help the Bees
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" 
+                                        aria-label="Navigate to National Wildlife Foundataion"
+                                        href="https://blog.nwf.org/2021/06/five-ways-to-help-bees-at-home/">
+                                        National Wildlife Foundataion
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" 
+                                        aria-label="Navigate to The Bee Conservancy"
+                                        href="https://thebeeconservancy.org/10-ways-to-save-the-bees/">
+                                        The Bee Conservancy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" 
+                                        aria-label="Navigate to Save Bees"
+                                        href="https://savebees.org/">
+                                        Save Bees
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                </ul>
-            </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -78,7 +102,9 @@
                     Find Your Nature
                 </h3>
                 <button class="btn btn-secondary m-3 cinzel-regular fade2">
-                    <a class="enter-button" href="./pages/garden.html">
+                    <a class="enter-button" 
+                        href="./pages/garden.html"
+                        aria-label="Navigate to Explore Page">
                         Start Exploring
                     </a>
                 </button>
@@ -94,47 +120,55 @@
                 <li ms-3>
                     <p>Allison Binger</p>
                 </li>
-                <div class="social-media-icons">
-                    <li class="ms-3">
-                            <a class="link-dark" href="https://medium.com/@allisonbinger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-medium" viewBox="0 0 16 16">
-                                            <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8m4.95 0c0 2.34-1.01 4.236-2.256 4.236S9.463 10.339 9.463 8c0-2.34 1.01-4.236 2.256-4.236S13.975 5.661 13.975 8M16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795"/>
-                                    </svg>
-                            </a>
-                    </li>
-                    <li class="ms-3">
-                            <a class="link-dark" href="https://www.linkedin.com/in/allisonbinger/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-linkedin" viewBox="0 0 16 16">
-                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                                    </svg>
-                            </a>
-                    </li>
-                    <li class="ms-3">
-                            <a class="link-dark" href="https://github.com/allisonabinger">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                    </svg>
-                            </a>
-                    </li>
-                </div>
-        <li class="ms-3">
-                    <p>Michael L. Gans</p>
+                <li class="ms-3">
+                        <a class="link-dark" 
+                            href="https://medium.com/@allisonbinger"
+                            aria-label="Navigate to Allison Binger's Medium Page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-medium" viewBox="0 0 16 16">
+                                        <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8m4.95 0c0 2.34-1.01 4.236-2.256 4.236S9.463 10.339 9.463 8c0-2.34 1.01-4.236 2.256-4.236S13.975 5.661 13.975 8M16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795"/>
+                                </svg>
+                        </a>
                 </li>
                 <li class="ms-3">
-                        <a class="link-dark" href="https://www.linkedin.com/in/michaellgans/">
+                        <a class="link-dark" 
+                            href="https://www.linkedin.com/in/allisonbinger/"
+                            aria-label="Navigate to Allison Binger's LinkedIn Page">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-linkedin" viewBox="0 0 16 16">
                                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
                                 </svg>
                         </a>
                 </li>
                 <li class="ms-3">
-                        <a class="link-dark" href="https://github.com/michaellgans">
+                        <a class="link-dark" 
+                            href="https://github.com/allisonabinger"
+                            aria-label="Navigate to Allison Binger's GitHub Page">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-github" viewBox="0 0 16 16">
                                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
                                 </svg>
                         </a>
                 </li>
-        </ul>
+                <li class="ms-3">
+                    <p>Michael L. Gans</p>
+                </li>
+                <li class="ms-3">
+                        <a class="link-dark" 
+                            href="https://www.linkedin.com/in/michaellgans/"
+                            aria-label="Navigate to Michael L. Gans' LinkedIn Page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg>
+                        </a>
+                </li>
+                <li class="ms-3">
+                        <a class="link-dark" 
+                            href="https://github.com/michaellgans"
+                            aria-label="Navigate to Michael L. Gans' GitHub Page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="whitesmoke" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                        </a>
+                </li>
+            </ul>
         </div>
     </footer>
 

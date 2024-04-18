@@ -3,6 +3,8 @@
     CARAWAY
   <img src="static/images/carawayLogoLarge.png" align="right" width="100"></h1>
 
+&nbsp;
+&nbsp;
 ## What is Caraway?
 Caraway is your home for discovering native plants in your state. Use our page to view dynamically and randomly loaded seed-packets to build your garden. Support local wildlife and pollinators, promote water conservation, and reduce carbon emissions.
 
